@@ -60,7 +60,6 @@ class LiveXibView: UIView {
     }
 
     override func awakeAfterUsingCoder(aDecoder: NSCoder!) -> AnyObject! {
-        println("awakeAfterUsingCoder pre")
         if self.subviews.count == 0 {
             var view = self.loadNib()
             view.setTranslatesAutoresizingMaskIntoConstraints(false)
@@ -69,7 +68,6 @@ class LiveXibView: UIView {
             view.addConstraints(contraints)
             return view
         }
-        println("awakeAfterUsingCoder post")
         return self
     }
     
