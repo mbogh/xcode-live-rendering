@@ -11,29 +11,13 @@
 		5A9D0E78197DA5F9004EB965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D0E77197DA5F9004EB965 /* ViewController.swift */; };
 		5A9D0E7B197DA5F9004EB965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D0E79197DA5F9004EB965 /* Main.storyboard */; };
 		5A9D0E7D197DA5F9004EB965 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D0E7C197DA5F9004EB965 /* Images.xcassets */; };
-		5A9D0E89197DA5F9004EB965 /* Xcode_Live_RenderingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D0E88197DA5F9004EB965 /* Xcode_Live_RenderingTests.swift */; };
 		5A9D0E9C197DAB45004EB965 /* Xcode Live Rendering Views.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9D0E9B197DAB45004EB965 /* Xcode Live Rendering Views.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A9D0EA2197DAB45004EB965 /* Xcode Live Rendering Views.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D0E97197DAB45004EB965 /* Xcode Live Rendering Views.framework */; };
-		5A9D0EA9197DAB45004EB965 /* Xcode_Live_Rendering_ViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D0EA8197DAB45004EB965 /* Xcode_Live_Rendering_ViewsTests.swift */; };
 		5A9D0EAC197DAB45004EB965 /* Xcode Live Rendering Views.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D0E97197DAB45004EB965 /* Xcode Live Rendering Views.framework */; };
 		5A9D0EAD197DAB45004EB965 /* Xcode Live Rendering Views.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D0E97197DAB45004EB965 /* Xcode Live Rendering Views.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5A9D0EBC197DABCF004EB965 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D0EBB197DABCF004EB965 /* LiveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5A9D0E83197DA5F9004EB965 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A9D0E68197DA5F9004EB965 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A9D0E6F197DA5F9004EB965;
-			remoteInfo = "Xcode Live Rendering";
-		};
-		5A9D0EA3197DAB45004EB965 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A9D0E68197DA5F9004EB965 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A9D0E96197DAB45004EB965;
-			remoteInfo = "Xcode Live Rendering Views";
-		};
 		5A9D0EAA197DAB45004EB965 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5A9D0E68197DA5F9004EB965 /* Project object */;
@@ -42,13 +26,6 @@
 			remoteInfo = "Xcode Live Rendering Views";
 		};
 		5A9D0EAE197DAB45004EB965 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A9D0E68197DA5F9004EB965 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A9D0E96197DAB45004EB965;
-			remoteInfo = "Xcode Live Rendering Views";
-		};
-		5A9D0EB7197DAB46004EB965 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5A9D0E68197DA5F9004EB965 /* Project object */;
 			proxyType = 1;
@@ -78,15 +55,10 @@
 		5A9D0E77197DA5F9004EB965 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A9D0E7A197DA5F9004EB965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A9D0E7C197DA5F9004EB965 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5A9D0E82197DA5F9004EB965 /* Xcode Live RenderingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xcode Live RenderingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A9D0E87197DA5F9004EB965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A9D0E88197DA5F9004EB965 /* Xcode_Live_RenderingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode_Live_RenderingTests.swift; sourceTree = "<group>"; };
 		5A9D0E97197DAB45004EB965 /* Xcode Live Rendering Views.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Xcode Live Rendering Views.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9D0E9A197DAB45004EB965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A9D0E9B197DAB45004EB965 /* Xcode Live Rendering Views.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Xcode Live Rendering Views.h"; sourceTree = "<group>"; };
-		5A9D0EA1197DAB45004EB965 /* Xcode Live Rendering ViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xcode Live Rendering ViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A9D0EA7197DAB45004EB965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A9D0EA8197DAB45004EB965 /* Xcode_Live_Rendering_ViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode_Live_Rendering_ViewsTests.swift; sourceTree = "<group>"; };
+		5A9D0EBB197DABCF004EB965 /* LiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,25 +70,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A9D0E7F197DA5F9004EB965 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5A9D0E93197DAB45004EB965 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A9D0E9E197DAB45004EB965 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A9D0EA2197DAB45004EB965 /* Xcode Live Rendering Views.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,9 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				5A9D0E72197DA5F9004EB965 /* Xcode Live Rendering */,
-				5A9D0E85197DA5F9004EB965 /* Xcode Live RenderingTests */,
 				5A9D0E98197DAB45004EB965 /* Xcode Live Rendering Views */,
-				5A9D0EA5197DAB45004EB965 /* Xcode Live Rendering ViewsTests */,
 				5A9D0E71197DA5F9004EB965 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,9 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				5A9D0E70197DA5F9004EB965 /* Xcode Live Rendering.app */,
-				5A9D0E82197DA5F9004EB965 /* Xcode Live RenderingTests.xctest */,
 				5A9D0E97197DAB45004EB965 /* Xcode Live Rendering Views.framework */,
-				5A9D0EA1197DAB45004EB965 /* Xcode Live Rendering ViewsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,27 +118,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5A9D0E85197DA5F9004EB965 /* Xcode Live RenderingTests */ = {
-			isa = PBXGroup;
-			children = (
-				5A9D0E88197DA5F9004EB965 /* Xcode_Live_RenderingTests.swift */,
-				5A9D0E86197DA5F9004EB965 /* Supporting Files */,
-			);
-			path = "Xcode Live RenderingTests";
-			sourceTree = "<group>";
-		};
-		5A9D0E86197DA5F9004EB965 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5A9D0E87197DA5F9004EB965 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		5A9D0E98197DAB45004EB965 /* Xcode Live Rendering Views */ = {
 			isa = PBXGroup;
 			children = (
 				5A9D0E9B197DAB45004EB965 /* Xcode Live Rendering Views.h */,
+				5A9D0EBB197DABCF004EB965 /* LiveView.swift */,
 				5A9D0E99197DAB45004EB965 /* Supporting Files */,
 			);
 			path = "Xcode Live Rendering Views";
@@ -195,23 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				5A9D0E9A197DAB45004EB965 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5A9D0EA5197DAB45004EB965 /* Xcode Live Rendering ViewsTests */ = {
-			isa = PBXGroup;
-			children = (
-				5A9D0EA8197DAB45004EB965 /* Xcode_Live_Rendering_ViewsTests.swift */,
-				5A9D0EA6197DAB45004EB965 /* Supporting Files */,
-			);
-			path = "Xcode Live Rendering ViewsTests";
-			sourceTree = "<group>";
-		};
-		5A9D0EA6197DAB45004EB965 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5A9D0EA7197DAB45004EB965 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -250,24 +170,6 @@
 			productReference = 5A9D0E70197DA5F9004EB965 /* Xcode Live Rendering.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5A9D0E81197DA5F9004EB965 /* Xcode Live RenderingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A9D0E8F197DA5F9004EB965 /* Build configuration list for PBXNativeTarget "Xcode Live RenderingTests" */;
-			buildPhases = (
-				5A9D0E7E197DA5F9004EB965 /* Sources */,
-				5A9D0E7F197DA5F9004EB965 /* Frameworks */,
-				5A9D0E80197DA5F9004EB965 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A9D0E84197DA5F9004EB965 /* PBXTargetDependency */,
-			);
-			name = "Xcode Live RenderingTests";
-			productName = "Xcode Live RenderingTests";
-			productReference = 5A9D0E82197DA5F9004EB965 /* Xcode Live RenderingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		5A9D0E96197DAB45004EB965 /* Xcode Live Rendering Views */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A9D0EB0197DAB45004EB965 /* Build configuration list for PBXNativeTarget "Xcode Live Rendering Views" */;
@@ -286,25 +188,6 @@
 			productReference = 5A9D0E97197DAB45004EB965 /* Xcode Live Rendering Views.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5A9D0EA0197DAB45004EB965 /* Xcode Live Rendering ViewsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A9D0EB4197DAB45004EB965 /* Build configuration list for PBXNativeTarget "Xcode Live Rendering ViewsTests" */;
-			buildPhases = (
-				5A9D0E9D197DAB45004EB965 /* Sources */,
-				5A9D0E9E197DAB45004EB965 /* Frameworks */,
-				5A9D0E9F197DAB45004EB965 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A9D0EA4197DAB45004EB965 /* PBXTargetDependency */,
-				5A9D0EB8197DAB46004EB965 /* PBXTargetDependency */,
-			);
-			name = "Xcode Live Rendering ViewsTests";
-			productName = "Xcode Live Rendering ViewsTests";
-			productReference = 5A9D0EA1197DAB45004EB965 /* Xcode Live Rendering ViewsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -317,16 +200,8 @@
 					5A9D0E6F197DA5F9004EB965 = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					5A9D0E81197DA5F9004EB965 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 5A9D0E6F197DA5F9004EB965;
-					};
 					5A9D0E96197DAB45004EB965 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					5A9D0EA0197DAB45004EB965 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 5A9D0E96197DAB45004EB965;
 					};
 				};
 			};
@@ -344,9 +219,7 @@
 			projectRoot = "";
 			targets = (
 				5A9D0E6F197DA5F9004EB965 /* Xcode Live Rendering */,
-				5A9D0E81197DA5F9004EB965 /* Xcode Live RenderingTests */,
 				5A9D0E96197DAB45004EB965 /* Xcode Live Rendering Views */,
-				5A9D0EA0197DAB45004EB965 /* Xcode Live Rendering ViewsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -361,21 +234,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A9D0E80197DA5F9004EB965 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5A9D0E95197DAB45004EB965 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A9D0E9F197DAB45004EB965 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,42 +253,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A9D0E7E197DA5F9004EB965 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A9D0E89197DA5F9004EB965 /* Xcode_Live_RenderingTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5A9D0E92197DAB45004EB965 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A9D0E9D197DAB45004EB965 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A9D0EA9197DAB45004EB965 /* Xcode_Live_Rendering_ViewsTests.swift in Sources */,
+				5A9D0EBC197DABCF004EB965 /* LiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5A9D0E84197DA5F9004EB965 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A9D0E6F197DA5F9004EB965 /* Xcode Live Rendering */;
-			targetProxy = 5A9D0E83197DA5F9004EB965 /* PBXContainerItemProxy */;
-		};
-		5A9D0EA4197DAB45004EB965 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A9D0E96197DAB45004EB965 /* Xcode Live Rendering Views */;
-			targetProxy = 5A9D0EA3197DAB45004EB965 /* PBXContainerItemProxy */;
-		};
 		5A9D0EAB197DAB45004EB965 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5A9D0E96197DAB45004EB965 /* Xcode Live Rendering Views */;
@@ -439,11 +273,6 @@
 			isa = PBXTargetDependency;
 			target = 5A9D0E96197DAB45004EB965 /* Xcode Live Rendering Views */;
 			targetProxy = 5A9D0EAE197DAB45004EB965 /* PBXContainerItemProxy */;
-		};
-		5A9D0EB8197DAB46004EB965 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A9D0E96197DAB45004EB965 /* Xcode Live Rendering Views */;
-			targetProxy = 5A9D0EB7197DAB46004EB965 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -558,43 +387,10 @@
 			};
 			name = Release;
 		};
-		5A9D0E90197DA5F9004EB965 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Xcode Live Rendering.app/Xcode Live Rendering";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Xcode Live RenderingTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		5A9D0E91197DA5F9004EB965 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Xcode Live Rendering.app/Xcode Live Rendering";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Xcode Live RenderingTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
 		5A9D0EB1197DAB45004EB965 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -609,6 +405,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -618,6 +415,7 @@
 		5A9D0EB2197DAB45004EB965 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -631,36 +429,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5A9D0EB5197DAB45004EB965 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Xcode Live Rendering ViewsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		5A9D0EB6197DAB45004EB965 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Xcode Live Rendering ViewsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -684,27 +452,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		5A9D0E8F197DA5F9004EB965 /* Build configuration list for PBXNativeTarget "Xcode Live RenderingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A9D0E90197DA5F9004EB965 /* Debug */,
-				5A9D0E91197DA5F9004EB965 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		5A9D0EB0197DAB45004EB965 /* Build configuration list for PBXNativeTarget "Xcode Live Rendering Views" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A9D0EB1197DAB45004EB965 /* Debug */,
 				5A9D0EB2197DAB45004EB965 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		5A9D0EB4197DAB45004EB965 /* Build configuration list for PBXNativeTarget "Xcode Live Rendering ViewsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A9D0EB5197DAB45004EB965 /* Debug */,
-				5A9D0EB6197DAB45004EB965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
