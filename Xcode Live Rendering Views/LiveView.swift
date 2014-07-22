@@ -21,7 +21,16 @@ class LiveView: UIView {
     
     @IBInspectable public var avatarImage: UIImage = UIImage() {
         didSet {
-            self.avatarImageView.image = avatarImage
+            let size = self.avatarImage.size
+            let rect = CGRectMake(0, 0, size.width, size.height)
+            UIGraphicsBeginImageContextWithOptions(size, false, 0.0);
+            var path = UIBezierPath(ovalInRect: rect)
+            path.addClip()
+            avatarImage.drawInRect(rect)
+            
+            let image = UIGraphicsGetImageFromCurrentImageContext();
+            UIGraphicsEndImageContext();
+            self.avatarImageView.image = image
         }
     }
     
@@ -36,6 +45,22 @@ class LiveView: UIView {
     }
     
     private func commonInit() {
+        self.addSubview(self.avatarImageView)
+        self.avatarImageView.contentMode = .ScaleAspectFit
+        self.avatarImageView.setTranslatesAutoresizingMaskIntoConstraints(false)
+        self.avatarImageView.clipsToBounds = true
+        self.addConstraint(NSLayoutConstraint(item: self.avatarImageView, attribute: .Top, relatedBy: .GreaterThanOrEqual, toItem: self, attribute: .Top, multiplier: 1.0, constant: 10.0))
+        self.addConstraint(NSLayoutConstraint(item: self.avatarImageView, attribute: .Leading, relatedBy: .Equal, toItem: self, attribute: .Leading, multiplier: 1.0, constant: 10.0))
+        self.addConstraint(NSLayoutConstraint(item: self, attribute: .Trailing, relatedBy: .Equal, toItem: self.avatarImageView, attribute: .Trailing, multiplier: 1.0, constant: 10.0))
+        
+        self.addSubview(self.titleLabel)
+        self.titleLabel.setTranslatesAutoresizingMaskIntoConstraints(false)
+        self.titleLabel.setContentCompressionResistancePriority(self.avatarImageView.contentCompressionResistancePriorityForAxis(.Vertical) + 1, forAxis: .Vertical)
+        self.titleLabel.textAlignment = .Center
+        self.addConstraint(NSLayoutConstraint(item: self.titleLabel, attribute: .Top, relatedBy: .Equal, toItem: self.avatarImageView, attribute: .Bottom, multiplier: 1.0, constant: 10.0))
+        self.addConstraint(NSLayoutConstraint(item: self.titleLabel, attribute: .Leading, relatedBy: .Equal, toItem: self, attribute: .Leading, multiplier: 1.0, constant: 10.0))
+        self.addConstraint(NSLayoutConstraint(item: self, attribute: .Trailing, relatedBy: .Equal, toItem: self.titleLabel, attribute: .Trailing, multiplier: 1.0, constant: 10.0))
+        self.addConstraint(NSLayoutConstraint(item: self, attribute: .Bottom, relatedBy: .GreaterThanOrEqual, toItem: self.titleLabel, attribute: .Bottom, multiplier: 1.0, constant: 10.0))
     }
     
     override func prepareForInterfaceBuilder() {

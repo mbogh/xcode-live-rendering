@@ -16,16 +16,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JtL-EI-a4W" customClass="LiveView" customModule="Xcode_Live_Rendering_Views">
-                                <rect key="frame" x="10" y="10" width="60" height="70"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JtL-EI-a4W" customClass="LiveView" customModule="Xcode_Live_Rendering_Views">
+                                <rect key="frame" x="20" y="40" width="560" height="540"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Donkey"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="avatarImage" value="Donkey"/>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JtL-EI-a4W" secondAttribute="trailing" constant="20" id="0Lo-0p-6Fp"/>
+                            <constraint firstItem="JtL-EI-a4W" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="7cs-zX-Llx"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" relation="greaterThanOrEqual" secondItem="JtL-EI-a4W" secondAttribute="bottom" constant="20" id="ekR-tp-e8c"/>
+                            <constraint firstItem="JtL-EI-a4W" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="zmT-13-tns"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="Donkey" width="640" height="633"/>
+    </resources>
 </document>
