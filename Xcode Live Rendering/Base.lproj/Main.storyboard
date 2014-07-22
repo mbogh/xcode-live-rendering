@@ -16,8 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JtL-EI-a4W" customClass="LiveView" customModule="Xcode_Live_Rendering_Views">
-                                <rect key="frame" x="20" y="40" width="560" height="540"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JtL-EI-a4W" customClass="LiveView" customModule="Xcode_Live_Rendering" customModuleProvider="target">
+                                <rect key="frame" x="20" y="40" width="560" height="260"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Donkey"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="avatarImage" value="Donkey"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3DE-5a-rtf" customClass="LiveXibView" customModule="Xcode_Live_Rendering" customModuleProvider="target">
+                                <rect key="frame" x="20" y="320" width="560" height="260"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="title" value="Donkey"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="avatarImage" value="Donkey"/>
@@ -27,8 +34,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="JtL-EI-a4W" secondAttribute="trailing" constant="20" id="0Lo-0p-6Fp"/>
+                            <constraint firstAttribute="bottom" secondItem="3DE-5a-rtf" secondAttribute="bottom" constant="20" id="0gr-8u-Vsh"/>
+                            <constraint firstItem="3DE-5a-rtf" firstAttribute="top" secondItem="JtL-EI-a4W" secondAttribute="bottom" constant="20" id="5ua-Wa-j6e"/>
                             <constraint firstItem="JtL-EI-a4W" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="7cs-zX-Llx"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" relation="greaterThanOrEqual" secondItem="JtL-EI-a4W" secondAttribute="bottom" constant="20" id="ekR-tp-e8c"/>
+                            <constraint firstItem="3DE-5a-rtf" firstAttribute="height" secondItem="JtL-EI-a4W" secondAttribute="height" id="94e-si-Bfr"/>
+                            <constraint firstItem="3DE-5a-rtf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="IDb-I3-4wS"/>
+                            <constraint firstAttribute="trailing" secondItem="3DE-5a-rtf" secondAttribute="trailing" constant="20" id="Inr-bt-3q5"/>
                             <constraint firstItem="JtL-EI-a4W" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="zmT-13-tns"/>
                         </constraints>
                     </view>

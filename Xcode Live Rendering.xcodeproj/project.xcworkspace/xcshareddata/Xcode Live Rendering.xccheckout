@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1440B15D-C74E-471F-97B5-0AD4A34B74C2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Xcode Live Rendering</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>29288141-2953-455A-B1B7-FAEF125C069D</key>
+		<string>ssh://github.com/mbogh/xcode-live-rendering.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Xcode Live Rendering.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>29288141-2953-455A-B1B7-FAEF125C069D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/mbogh/xcode-live-rendering.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>29288141-2953-455A-B1B7-FAEF125C069D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>29288141-2953-455A-B1B7-FAEF125C069D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Xcode Live Rendering</string>
+		</dict>
+	</array>
+</dict>
+</plist>

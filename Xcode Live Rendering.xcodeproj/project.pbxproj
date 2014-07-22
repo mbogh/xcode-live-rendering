@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A66F8F0197F0D6900671DD0 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D0EBB197DABCF004EB965 /* LiveView.swift */; };
+		5A66F8F1197F0D9C00671DD0 /* LiveXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A098FC3197EE8B600BEB5A0 /* LiveXibView.swift */; };
+		5A66F8F2197F0DC300671DD0 /* LiveXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A098FC5197EE8C500BEB5A0 /* LiveXibView.xib */; };
 		5A9D0E76197DA5F9004EB965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D0E75197DA5F9004EB965 /* AppDelegate.swift */; };
 		5A9D0E78197DA5F9004EB965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D0E77197DA5F9004EB965 /* ViewController.swift */; };
 		5A9D0E7B197DA5F9004EB965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D0E79197DA5F9004EB965 /* Main.storyboard */; };
@@ -14,7 +17,6 @@
 		5A9D0E9C197DAB45004EB965 /* Xcode Live Rendering Views.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9D0E9B197DAB45004EB965 /* Xcode Live Rendering Views.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A9D0EAC197DAB45004EB965 /* Xcode Live Rendering Views.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D0E97197DAB45004EB965 /* Xcode Live Rendering Views.framework */; };
 		5A9D0EAD197DAB45004EB965 /* Xcode Live Rendering Views.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D0E97197DAB45004EB965 /* Xcode Live Rendering Views.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		5A9D0EBC197DABCF004EB965 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D0EBB197DABCF004EB965 /* LiveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A098FC3197EE8B600BEB5A0 /* LiveXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveXibView.swift; path = "Xcode Live Rendering Views/LiveXibView.swift"; sourceTree = SOURCE_ROOT; };
+		5A098FC5197EE8C500BEB5A0 /* LiveXibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LiveXibView.xib; path = "Xcode Live Rendering Views/LiveXibView.xib"; sourceTree = SOURCE_ROOT; };
 		5A9D0E70197DA5F9004EB965 /* Xcode Live Rendering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode Live Rendering.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9D0E74197DA5F9004EB965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A9D0E75197DA5F9004EB965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +62,7 @@
 		5A9D0E97197DAB45004EB965 /* Xcode Live Rendering Views.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Xcode Live Rendering Views.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9D0E9A197DAB45004EB965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A9D0E9B197DAB45004EB965 /* Xcode Live Rendering Views.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Xcode Live Rendering Views.h"; sourceTree = "<group>"; };
-		5A9D0EBB197DABCF004EB965 /* LiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveView.swift; sourceTree = "<group>"; };
+		5A9D0EBB197DABCF004EB965 /* LiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveView.swift; path = "Xcode Live Rendering Views/LiveView.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,9 @@
 				5A9D0E75197DA5F9004EB965 /* AppDelegate.swift */,
 				5A9D0E77197DA5F9004EB965 /* ViewController.swift */,
 				5A9D0E79197DA5F9004EB965 /* Main.storyboard */,
+				5A9D0EBB197DABCF004EB965 /* LiveView.swift */,
+				5A098FC3197EE8B600BEB5A0 /* LiveXibView.swift */,
+				5A098FC5197EE8C500BEB5A0 /* LiveXibView.xib */,
 				5A9D0E7C197DA5F9004EB965 /* Images.xcassets */,
 				5A9D0E73197DA5F9004EB965 /* Supporting Files */,
 			);
@@ -122,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				5A9D0E9B197DAB45004EB965 /* Xcode Live Rendering Views.h */,
-				5A9D0EBB197DABCF004EB965 /* LiveView.swift */,
 				5A9D0E99197DAB45004EB965 /* Supporting Files */,
 			);
 			path = "Xcode Live Rendering Views";
@@ -231,6 +237,7 @@
 			files = (
 				5A9D0E7B197DA5F9004EB965 /* Main.storyboard in Resources */,
 				5A9D0E7D197DA5F9004EB965 /* Images.xcassets in Resources */,
+				5A66F8F2197F0DC300671DD0 /* LiveXibView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A66F8F0197F0D6900671DD0 /* LiveView.swift in Sources */,
 				5A9D0E78197DA5F9004EB965 /* ViewController.swift in Sources */,
+				5A66F8F1197F0D9C00671DD0 /* LiveXibView.swift in Sources */,
 				5A9D0E76197DA5F9004EB965 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A9D0EBC197DABCF004EB965 /* LiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +459,7 @@
 				5A9D0E8E197DA5F9004EB965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A9D0EB0197DAB45004EB965 /* Build configuration list for PBXNativeTarget "Xcode Live Rendering Views" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +468,7 @@
 				5A9D0EB2197DAB45004EB965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
