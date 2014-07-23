@@ -12,16 +12,11 @@ import UIKit
 class LiveXibView: UIView {
     @IBOutlet weak var avatarImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
-    private var view: LiveXibView?
+    private var proxyView: LiveXibView?
     
     @IBInspectable public var title: String = "" {
         didSet {
-            if let optionalView = view {
-                optionalView.titleLabel.text = title
-            }
-            else {
-                self.titleLabel.text = title
-            }
+            self.proxyView!.titleLabel.text = title
         }
     }
     
@@ -36,13 +31,7 @@ class LiveXibView: UIView {
             
             let image = UIGraphicsGetImageFromCurrentImageContext();
             UIGraphicsEndImageContext();
-            
-            if let optionalView = view {
-                optionalView.avatarImageView.image = image
-            }
-            else {
-                self.avatarImageView.image = image
-            }
+            self.proxyView!.avatarImageView.image = image
         }
     }
     
@@ -51,8 +40,8 @@ class LiveXibView: UIView {
         var view = self.loadNib()
         view.frame = self.bounds
         view.autoresizingMask = .FlexibleWidth | .FlexibleHeight
-        self.view = view
-        self.addSubview(self.view)
+        self.proxyView = view
+        self.addSubview(self.proxyView)
     }
     
     init(coder aDecoder: NSCoder!) {
@@ -66,6 +55,7 @@ class LiveXibView: UIView {
             let contraints = self.constraints()
             self.removeConstraints(contraints)
             view.addConstraints(contraints)
+            view.proxyView = view
             return view
         }
         return self
