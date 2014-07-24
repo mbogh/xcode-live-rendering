@@ -1,4 +1,4 @@
-xcode-live-rendering
+Xcode Live Rendering
 ====================
 
 Sample project showing how to use Xcode 6 Live Rendering feature both programmatically and using Nib.
