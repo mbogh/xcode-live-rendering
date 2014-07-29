@@ -27,7 +27,7 @@ class LiveXibView: UIView {
             UIGraphicsBeginImageContextWithOptions(size, false, 0.0);
             var path = UIBezierPath(ovalInRect: rect)
             path.addClip()
-            avatarImage.drawInRect(rect)
+            self.avatarImage.drawInRect(rect)
             
             let image = UIGraphicsGetImageFromCurrentImageContext();
             UIGraphicsEndImageContext();
