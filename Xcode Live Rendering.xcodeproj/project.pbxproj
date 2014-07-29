@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A66F8F0197F0D6900671DD0 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D0EBB197DABCF004EB965 /* LiveView.swift */; };
-		5A66F8F1197F0D9C00671DD0 /* LiveXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A098FC3197EE8B600BEB5A0 /* LiveXibView.swift */; };
-		5A66F8F2197F0DC300671DD0 /* LiveXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A098FC5197EE8C500BEB5A0 /* LiveXibView.xib */; };
+		5A66F8FA19880D4E00671DD0 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66F8F719880D4E00671DD0 /* LiveView.swift */; };
+		5A66F8FB19880D4E00671DD0 /* LiveXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66F8F819880D4E00671DD0 /* LiveXibView.swift */; };
+		5A66F8FC19880D4E00671DD0 /* LiveXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A66F8F919880D4E00671DD0 /* LiveXibView.xib */; };
 		5A9D0E76197DA5F9004EB965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D0E75197DA5F9004EB965 /* AppDelegate.swift */; };
 		5A9D0E78197DA5F9004EB965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D0E77197DA5F9004EB965 /* ViewController.swift */; };
 		5A9D0E7B197DA5F9004EB965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D0E79197DA5F9004EB965 /* Main.storyboard */; };
@@ -30,15 +30,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5A098FC3197EE8B600BEB5A0 /* LiveXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveXibView.swift; path = "Xcode Live Rendering Views/LiveXibView.swift"; sourceTree = SOURCE_ROOT; };
-		5A098FC5197EE8C500BEB5A0 /* LiveXibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LiveXibView.xib; path = "Xcode Live Rendering Views/LiveXibView.xib"; sourceTree = SOURCE_ROOT; };
+		5A66F8F719880D4E00671DD0 /* LiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveView.swift; sourceTree = "<group>"; };
+		5A66F8F819880D4E00671DD0 /* LiveXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveXibView.swift; sourceTree = "<group>"; };
+		5A66F8F919880D4E00671DD0 /* LiveXibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveXibView.xib; sourceTree = "<group>"; };
 		5A9D0E70197DA5F9004EB965 /* Xcode Live Rendering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode Live Rendering.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9D0E74197DA5F9004EB965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A9D0E75197DA5F9004EB965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A9D0E77197DA5F9004EB965 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A9D0E7A197DA5F9004EB965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A9D0E7C197DA5F9004EB965 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5A9D0EBB197DABCF004EB965 /* LiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveView.swift; path = "Xcode Live Rendering Views/LiveView.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,9 @@
 				5A9D0E75197DA5F9004EB965 /* AppDelegate.swift */,
 				5A9D0E77197DA5F9004EB965 /* ViewController.swift */,
 				5A9D0E79197DA5F9004EB965 /* Main.storyboard */,
-				5A9D0EBB197DABCF004EB965 /* LiveView.swift */,
-				5A098FC3197EE8B600BEB5A0 /* LiveXibView.swift */,
-				5A098FC5197EE8C500BEB5A0 /* LiveXibView.xib */,
+				5A66F8F719880D4E00671DD0 /* LiveView.swift */,
+				5A66F8F819880D4E00671DD0 /* LiveXibView.swift */,
+				5A66F8F919880D4E00671DD0 /* LiveXibView.xib */,
 				5A9D0E7C197DA5F9004EB965 /* Images.xcassets */,
 				5A9D0E73197DA5F9004EB965 /* Supporting Files */,
 			);
@@ -151,7 +151,7 @@
 			files = (
 				5A9D0E7B197DA5F9004EB965 /* Main.storyboard in Resources */,
 				5A9D0E7D197DA5F9004EB965 /* Images.xcassets in Resources */,
-				5A66F8F2197F0DC300671DD0 /* LiveXibView.xib in Resources */,
+				5A66F8FC19880D4E00671DD0 /* LiveXibView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,9 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A66F8F0197F0D6900671DD0 /* LiveView.swift in Sources */,
+				5A66F8FA19880D4E00671DD0 /* LiveView.swift in Sources */,
 				5A9D0E78197DA5F9004EB965 /* ViewController.swift in Sources */,
-				5A66F8F1197F0D9C00671DD0 /* LiveXibView.swift in Sources */,
+				5A66F8FB19880D4E00671DD0 /* LiveXibView.swift in Sources */,
 				5A9D0E76197DA5F9004EB965 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
