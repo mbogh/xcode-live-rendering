@@ -10,6 +10,7 @@
 		5A66F8FA19880D4E00671DD0 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66F8F719880D4E00671DD0 /* LiveView.swift */; };
 		5A66F8FB19880D4E00671DD0 /* LiveXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66F8F819880D4E00671DD0 /* LiveXibView.swift */; };
 		5A66F8FC19880D4E00671DD0 /* LiveXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A66F8F919880D4E00671DD0 /* LiveXibView.xib */; };
+		5A66F8FE19880DB900671DD0 /* LiveRenderedNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66F8FD19880DB900671DD0 /* LiveRenderedNibView.swift */; };
 		5A9D0E76197DA5F9004EB965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D0E75197DA5F9004EB965 /* AppDelegate.swift */; };
 		5A9D0E78197DA5F9004EB965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D0E77197DA5F9004EB965 /* ViewController.swift */; };
 		5A9D0E7B197DA5F9004EB965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D0E79197DA5F9004EB965 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		5A66F8F719880D4E00671DD0 /* LiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveView.swift; sourceTree = "<group>"; };
 		5A66F8F819880D4E00671DD0 /* LiveXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveXibView.swift; sourceTree = "<group>"; };
 		5A66F8F919880D4E00671DD0 /* LiveXibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveXibView.xib; sourceTree = "<group>"; };
+		5A66F8FD19880DB900671DD0 /* LiveRenderedNibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveRenderedNibView.swift; sourceTree = "<group>"; };
 		5A9D0E70197DA5F9004EB965 /* Xcode Live Rendering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode Live Rendering.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9D0E74197DA5F9004EB965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A9D0E75197DA5F9004EB965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				5A66F8F919880D4E00671DD0 /* LiveXibView.xib */,
 				5A9D0E7C197DA5F9004EB965 /* Images.xcassets */,
 				5A9D0E73197DA5F9004EB965 /* Supporting Files */,
+				5A66F8FD19880DB900671DD0 /* LiveRenderedNibView.swift */,
 			);
 			path = "Xcode Live Rendering";
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				5A9D0E78197DA5F9004EB965 /* ViewController.swift in Sources */,
 				5A66F8FB19880D4E00671DD0 /* LiveXibView.swift in Sources */,
 				5A9D0E76197DA5F9004EB965 /* AppDelegate.swift in Sources */,
+				5A66F8FE19880DB900671DD0 /* LiveRenderedNibView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

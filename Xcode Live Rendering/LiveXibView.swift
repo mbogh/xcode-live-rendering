@@ -9,14 +9,13 @@
 import UIKit
 
 @IBDesignable
-class LiveXibView: UIView {
+class LiveXibView: LiveRenderedNibView {
     @IBOutlet weak var avatarImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
-    private var proxyView: LiveXibView?
     
     @IBInspectable public var title: String = "" {
         didSet {
-            self.proxyView!.titleLabel.text = title
+            self.proxyView().titleLabel.text = title
         }
     }
     
@@ -31,38 +30,15 @@ class LiveXibView: UIView {
             
             let image = UIGraphicsGetImageFromCurrentImageContext()
             UIGraphicsEndImageContext()
-            self.proxyView!.avatarImageView.image = image
+            self.proxyView().avatarImageView.image = image
         }
     }
     
-    init(frame: CGRect) {
-        super.init(frame: frame)
-        var view = self.loadNib()
-        view.frame = self.bounds
-        view.autoresizingMask = .FlexibleWidth | .FlexibleHeight
-        self.proxyView = view
-        self.addSubview(self.proxyView)
+    override func nibName() -> String {
+        return "LiveXibView"
     }
     
-    init(coder aDecoder: NSCoder!) {
-        super.init(coder: aDecoder)
-    }
-
-    override func awakeAfterUsingCoder(aDecoder: NSCoder!) -> AnyObject! {
-        if self.subviews.count == 0 {
-            var view = self.loadNib()
-            view.setTranslatesAutoresizingMaskIntoConstraints(false)
-            let contraints = self.constraints()
-            self.removeConstraints(contraints)
-            view.addConstraints(contraints)
-            view.proxyView = view
-            return view
-        }
-        return self
-    }
-    
-    private func loadNib() -> LiveXibView {
-        let bundle = NSBundle(forClass: self.dynamicType)
-        return bundle.loadNibNamed("LiveXibView", owner: nil, options: nil)[0] as LiveXibView
+    private func proxyView() -> LiveXibView {
+        return self.proxyView! as LiveXibView
     }
 }
