@@ -23,13 +23,13 @@ class LiveView: UIView {
         didSet {
             let size = self.avatarImage.size
             let rect = CGRectMake(0, 0, size.width, size.height)
-            UIGraphicsBeginImageContextWithOptions(size, false, 0.0);
+            UIGraphicsBeginImageContextWithOptions(size, false, 0.0)
             var path = UIBezierPath(ovalInRect: rect)
             path.addClip()
             self.avatarImage.drawInRect(rect)
             
-            let image = UIGraphicsGetImageFromCurrentImageContext();
-            UIGraphicsEndImageContext();
+            let image = UIGraphicsGetImageFromCurrentImageContext()
+            UIGraphicsEndImageContext()
             self.avatarImageView.image = image
         }
     }
