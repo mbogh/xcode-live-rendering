@@ -63,7 +63,6 @@ class LiveXibView: UIView {
     
     private func loadNib() -> LiveXibView {
         let bundle = NSBundle(forClass: self.dynamicType)
-        var view = bundle.loadNibNamed("LiveXibView", owner: nil, options: nil)[0] as LiveXibView
-        return view
+        return bundle.loadNibNamed("LiveXibView", owner: nil, options: nil)[0] as LiveXibView
     }
 }
