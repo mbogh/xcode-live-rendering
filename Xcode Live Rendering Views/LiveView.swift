@@ -62,7 +62,4 @@ class LiveView: UIView {
         self.addConstraint(NSLayoutConstraint(item: self, attribute: .Trailing, relatedBy: .Equal, toItem: self.titleLabel, attribute: .Trailing, multiplier: 1.0, constant: 10.0))
         self.addConstraint(NSLayoutConstraint(item: self, attribute: .Bottom, relatedBy: .GreaterThanOrEqual, toItem: self.titleLabel, attribute: .Bottom, multiplier: 1.0, constant: 10.0))
     }
-    
-    override func prepareForInterfaceBuilder() {
-    }
 }
