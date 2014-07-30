@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 public class LiveRenderedNibView: UIView {
     public var proxyView: LiveRenderedNibView?
 
