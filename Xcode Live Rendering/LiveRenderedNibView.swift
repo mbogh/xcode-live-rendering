@@ -10,7 +10,7 @@ import UIKit
 
 @IBDesignable
 public class LiveRenderedNibView: UIView {
-    public var proxyView: LiveRenderedNibView?
+    public weak var proxyView: LiveRenderedNibView?
 
     init(frame: CGRect) {
         super.init(frame: frame)
