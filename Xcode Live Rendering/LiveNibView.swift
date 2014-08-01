@@ -9,8 +9,8 @@
 import UIKit
 
 @IBDesignable
-public class LiveRenderedNibView: UIView {
-    public weak var proxyView: LiveRenderedNibView?
+public class LiveNibView: UIView {
+    public weak var proxyView: LiveNibView?
 
     init(frame: CGRect) {
         super.init(frame: frame)
@@ -38,9 +38,9 @@ public class LiveRenderedNibView: UIView {
         return self
     }
 
-    private func loadNib() -> LiveRenderedNibView {
+    private func loadNib() -> LiveNibView {
         let bundle = NSBundle(forClass: self.dynamicType)
-        return bundle.loadNibNamed(self.nibName(), owner: nil, options: nil)[0] as LiveRenderedNibView
+        return bundle.loadNibNamed(self.nibName(), owner: nil, options: nil)[0] as LiveNibView
     }
     
     public func nibName() -> String {

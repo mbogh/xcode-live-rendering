@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LiveXibView: LiveRenderedNibView {
+class LiveXibView: LiveNibView {
     @IBOutlet weak var avatarImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     
