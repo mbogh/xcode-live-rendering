@@ -13,13 +13,13 @@ class LiveView: UIView {
     private var titleLabel = UILabel()
     private var avatarImageView = UIImageView()
     
-    @IBInspectable public var title: String = "" {
+    @IBInspectable internal var title: String = "" {
         didSet {
             self.titleLabel.text = title
         }
     }
     
-    @IBInspectable public var avatarImage: UIImage = UIImage() {
+    @IBInspectable internal var avatarImage: UIImage = UIImage() {
         didSet {
             let size = self.avatarImage.size
             let rect = CGRectMake(0, 0, size.width, size.height)
@@ -34,12 +34,12 @@ class LiveView: UIView {
         }
     }
     
-    init(coder aDecoder: NSCoder!) {
+    required init(coder aDecoder: NSCoder!) {
         super.init(coder: aDecoder)
         self.commonInit()
     }
     
-    init(frame: CGRect) {
+    override init(frame: CGRect) {
         super.init(frame: frame)
         self.commonInit()
     }

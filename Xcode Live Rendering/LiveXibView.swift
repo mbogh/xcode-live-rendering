@@ -12,13 +12,13 @@ class LiveXibView: LiveNibView {
     @IBOutlet weak var avatarImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     
-    @IBInspectable public var title: String = "" {
+    @IBInspectable internal var title: String = "" {
         didSet {
             self.proxyView().titleLabel.text = title
         }
     }
     
-    @IBInspectable public var avatarImage: UIImage = UIImage() {
+    @IBInspectable internal var avatarImage: UIImage = UIImage() {
         didSet {
             let size = self.avatarImage.size
             let rect = CGRectMake(0, 0, size.width, size.height)
