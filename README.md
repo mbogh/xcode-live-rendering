@@ -1,3 +1,7 @@
+Notice
+======
+Please head over to [Nib Designable](https://github.com/mbogh/NibDesignable) which is a more polished version of the code below.
+
 Xcode Live Rendering
 ====================
 
